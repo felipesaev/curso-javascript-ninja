@@ -2,7 +2,8 @@
 
 ```js
 // Declarar uma variável qualquer, que receba um objeto vazio.
-?
+
+
 
 /*
 Declarar uma variável `pessoa`, que receba suas informações pessoais.
@@ -150,8 +151,27 @@ deve conter no retorno da frase acima é "metro" no lugar de "metros".
 método), que será concatenada com a frase de retorno, mostrando a resposta
 correta, de acordo com os dados inseridos no objeto.
 */
-?
+
+pessoa.apresentacao = function () {
+var sexo = 'o';
+var idadeAnos = 'Anos';
+var metrosCaminhados = 'metros';
+}
+if (pessoa.sexo === 'Feminino')  {
+  sexo = 'a';
+  
+}
+
+ if (pessoa.idade === 1) {
+  idadeAnos = 'ano';
+ }
+ 
+ if ( pessoa.caminhouQuantosMetros ===1) {
+     metrosCaminhados = 'metro';
+ }
+ return ' "Olá, eu sou ' + sexo + '' + 'pessoa.nome' + '' + 'pessoa.sobrenome +', tenho ' + pessoa.idade + '' +idadeAnos + ',' + pessoa.altura +', meu peso é ' + pessoa,peso +' e, só hoje, eu já caminhei '+ pessoacaminhouQuantosMetros + '' + metrosCaminhados + ' ;
 
 // Agora, apresente-se ;)
-?
+
+'Olá, eu sou  Felipe Costa, tenho 25 anos, 1.75, meu peso é 67kg e, só hoje, eu ja caminhei 350 metros';
 ```
